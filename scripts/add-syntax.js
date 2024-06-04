@@ -1,6 +1,6 @@
-const addVueSyntax = () => {
+const addSvelteSyntax = () => {
 	if (!window.monaco) {
-		return setTimeout(addVueSyntax, 250);
+		return setTimeout(addSvelteSyntax, 250);
 	}
 
 	const htmlDef = monaco.languages.getLanguages().find(l => l.id === 'html');
@@ -9,4 +9,4 @@ const addVueSyntax = () => {
 	console.log('Added syntax highlighting for .svelte files');
 };
 
-addVueSyntax();
+addSvelteSyntax();

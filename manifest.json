@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Azure DevOps Vue Syntax Highlighting",
-	"description": "Enable syntax highlighting for .vue files when reviewing pull requests.",
+	"name": "Azure DevOps Svelte Syntax Highlighting",
+	"description": "Enable syntax highlighting for .Svelte files when reviewing pull requests.",
 	"version": "1.0",
 	"web_accessible_resources": [
 		{
