@@ -4,9 +4,9 @@ const addVueSyntax = () => {
 	}
 
 	const htmlDef = monaco.languages.getLanguages().find(l => l.id === 'html');
-	htmlDef.extensions.push('.vue');
+	htmlDef.extensions.push('.svelte');
 	monaco.languages.register(htmlDef);
-	console.log('Added syntax highlighting for .vue files');
+	console.log('Added syntax highlighting for .svelte files');
 };
 
 addVueSyntax();
